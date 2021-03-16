@@ -1,0 +1,14 @@
+--- 
+title: "Notes and commentary on *Self-Organization in Biological Systems*"
+author: "Thejasvi Beleyur"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: "book.bib"
+biblio-style: apalike
+link-citations: yes
+---
+
+# What this book is about 
+This book is a compilation of my notes and comments on the book 'Self-Organization in Biological Systems' [@camazine2001self].
+
