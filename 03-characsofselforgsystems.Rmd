@@ -1,0 +1,71 @@
+# 3. Characteristics of Self-Organizing Systems
+
+* The starting line of the first subsection 'The multiplicity of interactions...' is a really loaded sentence - could have been written
+in a simpler way.
+* Bifurcation, or a sudden transition between states caused by small parameter changes is discussed
+as a characteristic of self-organising systems. The logistic growth equation is discussed. This here
+is my attempts at exploring the dynamics. 
+
+```{r logistic,echo=FALSE}
+logistic.growth <- function(steps,nstart,r)
+  {
+  time <- seq(steps)
+  N <- rep(0,steps)
+  nstart.okay <- nstart<=1 & nstart >=0
+  # this is a 'scaled' version of the model and the population values are between 0-1.
+  if (isTRUE(nstart.okay)){
+    N[1] <- nstart}
+  else{stop('The value of Nstart is not within 0-1')}
+  for (t in time[1:length(time)-1]){N[t+1] <- r*N[t]*(1-N[t])}
+  N
+  }
+
+steps = 20
+time = seq(steps)
+
+n0 = 0.3
+par(mfrow=c(3,2))
+# r <1
+r=0.9
+plot(time, logistic.growth(steps,n0,r),ylab = 'Scaled popn.size',ylim=c(0,1))
+lines(time, logistic.growth(steps,n0,r));legend(15,0.8,legend=paste('r=',r,sep=' '))
+r=1.2
+plot(time, logistic.growth(steps,n0,r),ylab = 'Scaled popn.size',ylim=c(0,1))
+lines(time, logistic.growth(steps,n0,r));legend(15,0.8,legend=paste('r=',r,sep=' '))
+r=2.9
+plot(time, logistic.growth(steps,n0,r),ylab = 'Scaled popn.size',ylim=c(0,1))
+lines(time, logistic.growth(steps,n0,r));legend(15,0.8,legend=paste('r=',r,sep=' '))
+r=3.1
+plot(time, logistic.growth(steps,n0,r),ylab = 'Scaled popn.size',ylim=c(0,1))
+lines(time, logistic.growth(steps,n0,r));legend(15,0.8,legend=paste('r=',r,sep=' '))
+r=3.5
+plot(time, logistic.growth(steps,n0,r),ylab = 'Scaled popn.size',ylim=c(0,1))
+lines(time, logistic.growth(steps,n0,r));legend(15,0.8,legend=paste('r=',r,sep=' '))
+r=3.6
+plot(time, logistic.growth(steps,n0,r),ylab = 'Scaled popn.size',ylim=c(0,1))
+lines(time, logistic.growth(steps,n0,r));legend(15,0.8,legend=paste('r=',r,sep=' '))
+
+```
+
+* On Figure 3.1: I didn't know stingless bees built such intricate nests. Makes me wonder whether the nests of the Indian stingless species have been investigated. 
+The amount of detailed observations and photos in Chapter 3 of 'Stingless Bees' (Ed. Grüter,C. Springer) is preety fascinating. 
+
+* About the *Dendroctonus* beetle larvae example. The aggregation is weak when the density of larvae is low, but is very strong when the density is increased. The authors write *'The experiments demonstrated a simple emergent property--a cluster--in a group where the individuals initially were homogeneously distributed. At a certain density of larvae, the system spontaneously organizes itself'* : the formation of a single cluster is perhaps a 'new' form of organisation, but the formation of smaller clusters had already happened at lower densities. Where is the 'spontaneous organization' here - not sure. This example would make sense if in general there were small clusters formed until a particular threshold, where no matter the density only one big cluster forms. Perhaps this is what is actually known in reports? 
+
+* The idea of biological systems being 'tuned' by evolution to lie near bifurcation points is interesting. I'm kind of getting the hang of it now after playing around with the logistic equation model. Small changes in behavioural/morphological/physiological parameters could have much larger consequences at the collective/group level
+
+* *'In many real-world systems, especially those in biology, it is difficult to control parameter values precisely enough to reveal such abrupt bifurcations..'* - true that! Moreover, the measurement error + field conditions etc. complicates parameter estimation - even if we know the exact dynamics underlying the phenomenon.
+
+* About Figure 3.2: the interpretation of the bifurcation diagram would have been greatly aided with explicit X and Y labels! I'm wondering why the authors did not label the image directly but mention it in the *text*! I'm sure it wouldn't have taken anything away from the visual aesthetic of the image. 
+
+* The authors bring up the idea that self-organisation in biology is the consequence of both internal (biological) and external parameters (physical processes, ecological factors). '...strikingly different patterns may result from the same mechanism operating in a different parameter range.' - and highlight that cross-species differences in behaviour may actually be driven more by differences in environmental factors than generic differences perhaps. 
+
+* Box 3.2: highlights the fact that even weel defined mathematical models can show *deterministic chaos*, in that the model doesn't show any predictable switches in 
+values/states. For instance in the logistic model, when r>4, the system goes into deterministic chaos, where it is not possible to predict the populatin size from 
+one timepoint to the other. However, in other parts of the parameter regime, the dynamics is qualitatively much more predictable. 
+  * *'Here the term 'chaos' has a precise mathematical meaning that should not be confused with randomness or noise. Deterministic chaos is the unpredictable behavior of a nonlinear system within a certain parameter range.'*
+
+* Authors suggest it is unlikely that the parameters of biological systems will lie in chaotic type regions, as the dynamics is then expected to be unpredictable and show great variation from one time point to the other. However, given the type of variation we see in biological/ecological data - it would seem a tough exercise to show that biological systems are actually not in a chaotic state?
+
+
+

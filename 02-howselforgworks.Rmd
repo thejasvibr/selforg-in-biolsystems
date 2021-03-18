@@ -1,0 +1,18 @@
+# 2. How Self-Organization Works
+
+* *"Most self-organizing systems use positive feedback"* - I wonder which systems are driven by negative feedback. As stated in the chapter,
+positive feedback tends to promote change, while negative feedback tends to suppress it. Can't think of any systems myself - I wonder which examples the authors had in mind..?
+* *"Exhaustion or consumption of the building blocks is often an important mechanism for limiting positive feedback."* : as mentioned later in the chapter - termite/ant construction is a case where the 'building block'
+is an external exhaustible resource. In the case of social spiders (genus *Stegodyphus* & *Anelosimus*), web construction through silk investment is an energetically demanding resource, in the same vein, honeybee cells are
+also constructed by the use of the wax secretions (wonder how energy intensive wax production is). 
+* *"Signals are stimuli shaped by natural selection specifically to convey information, whereas cues are stimuli that convey information only incidentally."* : in the case of group echolocation an individual echolocator in a group is faced with lots of incoming sounds that may/not be relevant. I was wondering about two situations:
+	1.  The 'own' echoes are the *signal* while the echoes from other bats are potentially 'cues'. The others' echoes potentially inform the bat of the 
+	direction in which objects are, even though they don't necessarily provide distance/other information. 
+	1. The 'own' echoes the *signal*, while the calls of other bats are *cues*. The calls of other bats provide clear information about where neighbours are located, and this can be used to avoid colliding into them. 
+
+* *"In coordinating their movements in a school, fish use both positive and negative feedback mechanisms"* : in the list of references I found [@huthwissel] who simulated schools of fish. Here are some notes from the paper:
+	* It looks like simulations of fish schools go back all the way to 1976!
+	* This paper assumes that there is no leader, and that fish in a group do not have access to any 'centre-of-mass' type quantitity. Also that all members of a group follow the same 'rules'
+	* The authors propose a 'zonal model' and cite Aoki 1982, much like that in [@couzin2002collective] - somehow I didn't realise zonal models were a relatively established concept even in the 70's and 80's.
+	* Authors investigate two types of models - the 'D' model and 'A' model. In the D-model individuals react by prioritising the information from a few of the neighbours, in the A-model individuals averages information from all neighbours in its vicinity
+	* The A-model seems to mimic the behaviour of fish schools better than the D-model. 
