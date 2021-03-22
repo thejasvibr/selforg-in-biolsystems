@@ -1,0 +1,32 @@
+# 4. Alternatives to Self-Organization
+
+* This chapter broadly looks at four somewhat intertwined alternatives that may
+describe biological phenomena : 
+  1. Leadership : the 'well-informed' leader that leads a pack. Perhaps there is
+  evidence for this in elephant groups where the matriarchs lead the members
+  to watering holes etc.?
+  1. Blueprints: a fixed plan that will be executed where the process and end-product are
+  fixed. eg. nest construction in some insects (as seen in Fig 4.3 - a potter wasp 
+  starts re-building its nest when the appearance is slightly altered)
+  1. Recipes : a broad plan where the *what* is defined, but the 'how' is not so defined. 
+  Here I suppose bird nest building may be an appropriate. 
+  1. Templates: a fixed plan where each part of the work directly aligns/dictates the
+  next part of the work.
+  
+* Of course, I had to think of the flexible web building of orb-web spiders (eg. [@peters1970orb] in *A. diadematus*).
+Individuals can complete the incomplete webs initiated by other spiders, and also 
+actually complete webs that have been 'disassembled' (key parts of the web burnt off). This type of 
+behaviour tells me spiders may be acting according to a mix of a blueprint, recipe and a template
+type mechanism. Perhaps less blueprint, but more recipe and template. The curvature/placement 
+of the strings and the spider's own body determine the inter-string placement, while the broad 
+overarching behavioural recipe might be - 'spin silk till you can walk from point A to B without
+feeling any gaps'
+
+* Self-organization may play a stronger role in larger colonies of wasps, than in smaller colonies. In general this may perhaps
+be the case because the importance of single inter-individual interactions gets 'averaged over', with increasing group size. 
+* The discussions of stigmergy reminded me of how the timing and number of social spiders on the web are so close tied together. The
+appearance of a few spiders triggers the appearance of more and so on. Studies by Deneuxbourg and colleagues have shown this with 
+*Anelosimus* I think. Another example that came to mind may even be social waking/activity cycles in a bat colonies in caves or even 
+in tree-hanging fruit-bats. 
+
+* 
