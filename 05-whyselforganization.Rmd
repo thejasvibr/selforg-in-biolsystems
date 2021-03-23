@@ -1,0 +1,30 @@
+# 5. Why Self-Organization
+
+This chapter delves into why self-organisation is so popular, in contrast to the some of the 
+more 'centralised'/'deliberate' strategies outlined in Chapter 4 of the book. 
+
+* *'.... the reules in self-organizing systems can be quite economical in the physiological and behavioral
+ machinery needed to implement them. .....'*
+ 
+* "*arise through evolutionary processes and more likely to carry smaller costs than more complicated*" -- what is a 'complicated' rules
+and does it *have* to be more costly. Does the energy/time/adaptation cost always trade-off 'linearly' with rule complexity?
+Perhaps different animal species already lie on the point where they have a lot of complex behaviours/rules built in for
+individual level behaviours, and for these animals the 'cost' is minimal? Moreover, many innate, individual animal behaviours the
+themselves are extremely 'complex' -- what is the real difference between 'complexity' in innate animal behaviours and 
+behaviours that involve pattern formation. 
+
+* '*It seems clear, however, that blueprints are not a widespread mechanism for guiding pattern formation
+ in groups, with the obvious exception of human groups.. Why is this? Perhaps one important reason is that it would be extremely costly to encode genetically the vast quantity of information that would need to be expressed in a mental blueprint for a complex structure,
+ such as a termite nest.*' -- Yes, humans use 'blueprints' however, it's important to note that the blueprints are not genetically coded. 
+ Instead, perhaps our ability to communicate with each other is coded, which then facilitates the use/conception of 
+ blueprints. 
+ 
+ * "*...that pattern-formation by cooperative groups usually arises through self-organization rather than external guidance because the latter mechanisms generally are exceedingly difficult to implement.*" - 'difficult to implement' or rather that the tinkerer-nature of evolutionarymeans that
+ in most cases self-organisation is the path of least effort, that still provides a results. For eg. there may be animalswith 
+ sufficiently sophisticated cognitive abilities, but they may still be following simple self-organisation type rules? 
+ 
+ * in general, I have limited expertise in the field of evolutionary biology, but it seems like many of the arguments the authors
+ make here about why self-organisation is the 'standard' parallels the arguments for why trait X is commonly seen instead
+ of trait Y and Z. Here X = self-organisation and Y,Z = blueprints or templates. The arguments seems a bit wobbly. For instance
+ the predominance of trait X, instead of Y or Z, could also be explained by the fact that it is an 'ancestral' state that never
+ changed, or for which there was no selection pressure against?
