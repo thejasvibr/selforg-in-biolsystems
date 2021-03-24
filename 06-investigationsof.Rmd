@@ -1,0 +1,26 @@
+# Investigations of Self-Organization 
+
+* the authors state two types of modelling approaches : 'bottom-up' - which is driven
+mainly by experimental findings and 'top-down'- which is driven mainly by intuition
+  * I'm just wondering whether this is a false dichotomy, and wish there was a bit more detail. 
+* *'it may be temp(t)ing to vary the parameters of a model until the desired global pattern is produced'* - the authors caution against 
+  a forceful urge to find the parameters that best fit the data. After having set up a
+  biologically reasonable parameter space to search, a failure to replicate certain patterns
+  may indeed inform us of what is missing in the current model. 
+* '*A match that may be found between the global pattern and the output of the
+    models is not particularly strong evidence of the model's validity. *' - the match of just *one* pattern is
+    definitely good proof of the model's validity. However, I would argue that in most
+    phenomena, multiple 'patterns' at different scales of investigation can be extracted and compared. 
+    For instance, in shoaling behaviour, group polarity is a common property, but in addition the
+    distributions of inter-neighbour distance, individual velocity, etc.must be taken into consideration. 
+    *REFERENCE MISSING HERE FOR MULTI-PATTERN MODEL CHECKING*
+* the authors seem to reflect the then pre-dominant feeling that '...some biologists question the value of models.'. This may
+  have been true a decade or two ago, but my feeling is that this feeling is declining fairly rapidly
+  
+* On how modelling exposes gaps in our knowledge: *'.. the investigator is forced to be explicit about each detail of the 
+mechanics of a system. One consequence of this is that in the process of model building, the investigator often realizes
+that no information is available about a particular part of the system.'* : speaking from personal experience, I can 
+definitely say modelling is a humbling experience. While qualtitative models already expose the lack of information, being
+forced to specify the relationship between variables and outcomes makes one think twice about how sure one can be at all!
+
+* 
